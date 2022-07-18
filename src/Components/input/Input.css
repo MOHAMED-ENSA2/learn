@@ -1,0 +1,28 @@
+.input{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color : white ; 
+}
+.input::placeholder{
+}
+
+.input--primary{
+    background-color: rgb(188, 19, 19); 
+}
+
+.input--primary::placeholder{
+    color : white ; 
+}
+
+.input--secondary{
+    color: rgb(188, 19, 19); 
+    border: 1px solid rgb(188, 19, 19);
+}
+
+.input--secondary::placeholder{
+    color: rgb(188, 19, 19); 
+}
+
